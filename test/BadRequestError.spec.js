@@ -1,7 +1,6 @@
 const BadRequestError = require('../lib/BadRequestError');
 
 describe('BadRequestError', () => {
-
   it('should have a 400 status code', () => {
     expect(new BadRequestError().statusCode).toBe(400);
   });

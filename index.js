@@ -1,2 +1,3 @@
-const SendError = require('./lib/SendError');
-console.log('sendError', SendError);
+const Tael = require('./lib');
+
+module.exports = Tael;
