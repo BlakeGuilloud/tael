@@ -6,7 +6,7 @@ import SendError from './SendError';
 import SendSuccess from './SendSuccess';
 import UnauthorizedError from './SendError';
 
-export {
+module.exports = {
   BadRequestError,
   ConflictingRecordError,
   InternalError,
