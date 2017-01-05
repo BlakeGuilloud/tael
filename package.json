@@ -5,18 +5,20 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -Rf lib && babel src -d lib --copy-files",
+    "dist": "rm -Rf dist && babel lib -d dist --copy-file",
     "test": "npm run build && jest",
     "start": "npm run build && node index"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
+    "babel-preset-babili": "0.0.9",
     "babel-preset-blake": "^1.0.0",
     "jest": "^18.0.0"
   },
   "files": [
     "index.js",
     "README.md",
-    "lib/**"
+    "dist/**"
   ],
   "author": "Blake Guilloud",
   "license": "ISC",
