@@ -1,3 +1,3 @@
-const Tael = require('./lib');
+const Tael = require('./dist');
 
 module.exports = Tael;
