@@ -1,6 +1,6 @@
 {
   "name": "tael",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "NodeJS Responses",
   "main": "index.js",
   "scripts": {
