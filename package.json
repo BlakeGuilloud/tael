@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -Rf lib && babel src -d lib --copy-files",
-    "dist": "rm -Rf dist && babel lib -d dist --copy-file",
+    "dist": "webpack",
     "test": "npm run build && jest",
     "start": "npm run build && node index"
   },
